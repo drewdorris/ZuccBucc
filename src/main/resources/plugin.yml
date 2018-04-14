@@ -1,0 +1,5 @@
+main: me.stupiddrew9.zuccbucc.ZuccBuccPlugin
+name: ${name}
+version: ${project.version}
+commands:
+  zuccbucc:
