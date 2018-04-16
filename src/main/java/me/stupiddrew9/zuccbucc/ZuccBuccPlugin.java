@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 // JavaPlugin is the class that represents a plugin, this class will use all the methods of that class and add some more
 public class ZuccBuccPlugin extends JavaPlugin {
 	
+	///////
 	// the object that represents ur plugin
 	// since it's static, it always exists & you can't make a new one, you just have to change it
 	private static ZuccBuccPlugin plugin;
