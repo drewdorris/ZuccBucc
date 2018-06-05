@@ -6,9 +6,11 @@ import java.util.Random;
 // there can be a bunch of the same objects, all with the same values and methods!!!
 public class ZuccBucc {
 	
-	// this just always exists
 	// 'final' means that you can't change it, you can only use it
-	// you don't need more than one, so it's static
+	// since the random object is just an object being used by the ZuccBucc and it's not actually a part of the ZuccBucc, it's static
+                  // the 'static' keyword means that the object/method/whatever is not being used as a unique part of each object, it's just kinda there
+                  // like, all ZuccBuccs have an owner, value, etc., but they don't all need a copy of this Random object
+	// so this object just always exists; static objects and methods are not a part of anything, they are invincible, and they can be easily used by any instance of this class
 	private static final Random random = new Random();
 	
 	// string name of the owner
